@@ -1,0 +1,17 @@
+.display:inline-block{
+    vertical-align: top;
+}
+.logo{
+    width: 73%;
+    padding: 1%;
+    background-image: url("../images/w_logo.png");
+    text-align: center;
+}
+.nav{
+    width: 73%;
+    padding: 1%;
+}
+.inline-block{
+    width: 50%;
+    margin-left: auto;
+}
