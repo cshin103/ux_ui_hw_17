@@ -29,7 +29,7 @@ body{
    padding: 25px;
    font-size: 14px;
    text-decoration: none;
-    font-family: 'Optima Bold';
+    font-family: 'Optima';
     font-style: normal;
     font-weight: normal;
     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
@@ -83,24 +83,27 @@ body{
 .education{
     margin-top: 10px;
     justify-content:flex-start;
+    padding: 30px;
 }
 .work_experience{
     margin-top: 10px;
     justify-content: flex-start;
+    padding: 30px;
 }
 .text h1{
     color: white;
     font-family: Helvetica;
+    font-size: x-large;
 }
-.text p{
+.text1 p{
     color: white;
-    font-family: 'Optima Bold';
+    font-family: 'Optima';
     font-style: normal;
     font-weight: normal;
     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
 }
 .button{
-    font-family: 'Optima Bold';
+    font-family: 'Optima';
     font-style: normal;
     font-weight: normal;
     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
@@ -109,11 +112,11 @@ body{
     color: white;
     font-family: helvetica;
 }
-.text1 p{
+.text p{
     margin-top: 10px;
     color: white;
     @font-face {
-        font-family: 'Optima Bold';
+        font-family: 'Optima';
         font-style: normal;
         font-weight: normal;
         src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
@@ -122,6 +125,28 @@ body{
 }
 .heroimg{
     height: 650px;
-    width: 400px;   
+    width: 400px;  
+    margin: 0%; 
 }
-
+.left ul{
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;   
+}
+.left a{
+    grid-area: left;
+    display: inline-block;
+    justify-content: left;
+    width: 25%;
+   color: white;
+   padding: 25px;
+   font-size: 14px;
+   text-decoration: none;
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+    }   
+}
