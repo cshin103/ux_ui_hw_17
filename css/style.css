@@ -4,8 +4,10 @@
 .logo{
     width: 73%;
     padding: 1%;
-    background-image: url("../images/w_logo.png");
-    text-align: center;
+    background-image: url("../images/d_logo.png");
+    background-repeat: no-repeat;
+    text-align: left;
+
 }
 .nav{
     width: 73%;
@@ -21,9 +23,11 @@
 }
 .content{
     width: 500px;
+    height: 400px;
     margin: 0 auto;
 }
 .inline-block{
     background-color: #373738;
     padding: 1%;
+    align-items: baseline;
 }
