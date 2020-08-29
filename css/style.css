@@ -1,25 +1,33 @@
-.display:inline-block{
-    vertical-align: top;
-}
 .logo{
-    width: 73%;
-    padding: 1%;
-    background-image: url("../images/d_logo.png");
+    background: #555555;
+    height: 230px;
+    width: 230px;
+    background-image: url("../images/w_logo.png");
     background-repeat: no-repeat;
-    text-align: left;
-
+    background-position: left;
 }
 .nav{
-    width: 73%;
-    padding: 1%;
+    display: inline-block;
+    background-color: #555555;
+    padding: 20px;
+    vertical-align: top;
+}
+.left{
+    height: 50px;
+    display: inline-block;
+    justify-content: left;
+    align-items: flex-start;
 }
 .inline-block{
     width: 50%;
     margin-left: auto;
 }
-.herolmg{
+.heroimg{
     height: 600px;
     padding: 25px;
+    background-image: url("../images/me.JPG");
+    background-repeat: no-repeat;
+
 }
 .content{
     width: 500px;
@@ -29,5 +37,4 @@
 .inline-block{
     background-color: #373738;
     padding: 1%;
-    align-items: baseline;
 }
