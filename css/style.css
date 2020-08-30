@@ -1,7 +1,8 @@
 body{
-    background-color: #555555;
+    background-color:white;
 }
 #header{
+    background-color:#333333;
     display: flex;
     justify-content: space-between;
 }
@@ -11,8 +12,12 @@ body{
 }
 .nav{
     display: inline-block;
-    background-color: #555555;
+    background-color: #333333;
     padding: 20px;
+}
+#column{
+    background-color:#333333;
+    display: flex;
 }
 .right ul{
     display: flex;
@@ -26,7 +31,7 @@ body{
     justify-content: flex-end;
     width: 25%;
    color: white;
-   padding: 25px;
+   padding: 20px;
    font-size: 14px;
    text-decoration: none;
     font-family: 'Optima';
@@ -40,9 +45,8 @@ body{
     grid-template-areas:
     'about about'
     'left right';
-    grid-template-rows: 25% 25% 50%;
-    grid-template-columns: 25% 75%;
-
+    grid-template-rows: 25% 25% 25% 5%;
+    grid-template-columns: 65% 35%;
 }
 .about {
     grid-area: about;
@@ -55,19 +59,6 @@ body{
 }
 .right{
     grid-area: right;
-}
-.text3 h2{
-    color: #D7D7D7;
-    font-family: helvetica;
-    font-size: 84px; 
-    transform: rotate(270deg);
-    grid-area: right;
-}
-.text4 h2{
-    color: #D7D7D7;
-    font-family: helvetica;
-    font-size: 84px; 
-    transform: rotate(270deg);
 }
 .education,.work_experience{
     height: 100%;
@@ -102,6 +93,11 @@ body{
     font-weight: normal;
     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
 }
+.text1 h3{
+    color:white;
+    font-family: Helvetica;
+    margin-top: 20px;
+}
 .button{
     font-family: 'Optima';
     font-style: normal;
@@ -123,15 +119,88 @@ body{
         }
         margin-top: 20px;
 }
-.heroimg{
-    height: 650px;
-    width: 400px;  
-    margin: 0%; 
+.imageholder{
+    position: relative;
+    float: left;
+}
+.caption{
+    position: absolute;
+    top: 0;
+    left: 2;
+    right: 0;
+    font-family: Helvetica;
+    font-size: 84px;
+    color:#D7D7D7;
+    padding: 1.3em 2em;
+    transform: rotate(270deg);
+}
+.caption2{position: absolute;
+    top: 0;
+    left: 0;
+    right: 2;
+    font-family: Helvetica;
+    font-size: 84px;
+    color:#D7D7D7;
+    padding: 4em 2em;
+    transform: rotate(270deg);}
+
+#background{
+    display: flex;
+    background-color: white;
+}
+.background{
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas:
+    'bcenter bcenter'
+    'bleft bright';
+    grid-template-rows: 25% 25%;
+    grid-template-columns: 50% 50%;
+}
+.bleft{
+    grid-area: 'bleft';
+}
+.btext h6{
+    color: #333333;
+    font-family: 'optima';
+    font-style: normal;
+    font-size: 13px;
+    grid-area: 'bleft';
+    justify-content: space-between;
+}
+.bcenter{
+    grid-area: 'bcenter';
+}
+.imageholder{
+    position: relative;
+    float: left;
+}
+.bright{
+    grid-area: 'bright';
+}
+.brtext p{
+    color:#333333;
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff'); 
+}
+#footer{
+    display: flex;
+    background-color: white;
+}
+.left h6{
+    color: #333333;
+    font-family: 'optima';
+    font-style: 'normal';
+    font-weight: bold;
+    font-size: 13px;
 }
 .left ul{
+    background-color: white;
     display: flex;
     height: 50px;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     list-style: none;   
 }
@@ -140,13 +209,33 @@ body{
     display: inline-block;
     justify-content: left;
     width: 25%;
-   color: white;
+   color:#333333;
    padding: 25px;
-   font-size: 14px;
+   font-size: 40px;
+   text-decoration: none;
+    font-family: 'Helvetica';
+    font-style: bold;
+    font-weight: normal;
+}
+.left2{
+    display: flex;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}   
+.left2 a{
+    grid-area: left;
+    display: inline-block;
+    justify-content: space-between;
+    width: 25%;
+   color:#333333;
+   padding: 25px;
+   font-size: 15px;
    text-decoration: none;
     font-family: 'Optima';
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-    }   
 }
+
