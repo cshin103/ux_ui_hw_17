@@ -111,7 +111,6 @@ body{
 .text p{
     margin-top: 10px;
     color: white;
-    @font-face {
         font-family: 'Optima';
         font-style: normal;
         font-weight: normal;
