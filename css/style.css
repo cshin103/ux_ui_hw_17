@@ -111,7 +111,7 @@ body{
     color: white;
     font-family: helvetica;
 }
-.text p{
+.text1 h6{
     margin-top: 10px;
     color: white;
         font-family: 'Optima';
@@ -143,7 +143,17 @@ body{
     font-size: 84px;
     color:#D7D7D7;
     padding: 4em 2em;
-    transform: rotate(270deg);}
+    transform: rotate(270deg);
+}
+button{
+    background-color: #333333;
+    color: white;
+    font-family: 'optima';
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: underline;
+    border: none;
+}
 
 #background{
     display: inline-block;
@@ -153,7 +163,7 @@ body{
    color: white;
    padding: 10px; 
 }
-h6{
+h4{
     display: grid;
     grid-area: right;
     color:#333333;
@@ -168,20 +178,22 @@ h6{
     height: 150px;
     margin: 20px;
 }
-#teaser img{
-    width: 350px;
-    height: 350px;
-}
-p{
+#render p{
     float: right;
     margin: auto;
     padding: 20px;
+    font-family: 'optima';
+    font-style: normal;
+    font-size: 13px;
 }
-#skills{
+#render {
+
+}
+#contact{
     display: inline-block;
     background-color: #333333;
 }    
-#skills h6{
+#contact h6{
     display: grid;
     grid-area: left;
     color:white;
