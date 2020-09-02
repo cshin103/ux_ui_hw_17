@@ -17,7 +17,9 @@ body{
 }
 #column{
     background-color:#333333;
-    display: flex;
+    display: inline-block;
+    padding: 30px;
+    background-size: 600px;
 }
 .right ul{
     display: flex;
@@ -85,6 +87,7 @@ body{
     color: white;
     font-family: Helvetica;
     font-size: x-large;
+    margin-top: 10px;
 }
 .text1 p{
     color: white;
@@ -96,7 +99,7 @@ body{
 .text1 h3{
     color:white;
     font-family: Helvetica;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .button{
     font-family: 'Optima';
@@ -129,7 +132,7 @@ body{
     font-family: Helvetica;
     font-size: 84px;
     color:#D7D7D7;
-    padding: 1.3em 2em;
+    padding: .15em 2.5em;
     transform: rotate(270deg);
 }
 .caption2{position: absolute;
@@ -139,24 +142,19 @@ body{
     font-family: Helvetica;
     font-size: 84px;
     color:#D7D7D7;
-    padding: 4em 2em;
+    padding: 3em 2em;
     transform: rotate(270deg);}
 
 #background{
-    display: flex;
+    display: inline-block;
     background-color: white;
 }
-.background{
-    display: grid;
-    margin: 0 auto;
-    grid-template-areas:
-    'bcenter bcenter'
-    'bleft bright';
-    grid-template-rows: 25% 25%;
-    grid-template-columns: 50% 50%;
-}
-.bleft{
-    grid-area: 'bleft';
+.background{  
+    display: inline-block;
+    justify-content: flex-end;
+    width: 25%;
+   color: white;
+   padding: 20px; 
 }
 .btext h6{
     color: #333333;
@@ -169,14 +167,85 @@ body{
 .bcenter{
     grid-area: 'bcenter';
 }
-.imageholder{
+#bleft{
+    background-color:white;
+    display: inline-block;
+    padding: 30px;
+    background-size: 600px;
+}
+.bleft{
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas:
+    'bcenter bcenter'
+    'bleft bright';
+    grid-template-rows: 25% 25%;
+    grid-template-columns: 50% 50%;
+
+}
+.imageholder2{
+    display: block;
+    position: absolute;
+    grid-area: 'left';
+}
+.bright{
+ display: inline-block;
+ justify-content: flex-end;
+ width: 25%;
+ color: white;
+ padding: 20px;
+ font-size: 14px;
+ text-decoration: none;
+ font-family: 'Optima';
+ font-style: normal;
+ font-weight: normal;
+ src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+
+.brtext p{
+    display: grid;
+    grid-area: right;
+    color:#333333;
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff'); 
+}
+#skills{
+    display: flex;
+    background-color: white;
+}
+.skills{
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas:
+    'skcenter skcenter'
+    'skleft skright';
+    grid-template-rows: 25% 25%;
+    grid-template-columns: 50% 50%;
+}
+.skleft{
+    grid-area: 'skleft';
+}
+.sktext h6{
+    color: #333333;
+    font-family: 'optima';
+    font-style: normal;
+    font-size: 13px;
+    grid-area: 'skleft';
+    justify-content: space-between;
+}
+.skcenter{
+    grid-area: 'skcenter';
+}
+.skimageholder{
     position: relative;
     float: left;
 }
-.bright{
+.skright{
     grid-area: 'bright';
 }
-.brtext p{
+.sktext p{
     color:#333333;
     font-family: 'Optima';
     font-style: normal;
