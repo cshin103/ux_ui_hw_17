@@ -115,8 +115,7 @@ body{
         font-style: normal;
         font-weight: normal;
         src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-        }
-        margin-top: 20px;
+        margin-top:20px;
 }
 .imageholder{
     position: relative;
