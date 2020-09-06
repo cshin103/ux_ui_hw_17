@@ -89,6 +89,13 @@ body{
     font-size: x-large;
     margin-top: 10px;
 }
+.text p{
+    color: white;
+    font-family: 'optima';
+    font-style: normal;
+    font-weight: normal;
+    font-size:20px
+}
 .text1 p{
     color: white;
     font-family: 'Optima';
@@ -111,9 +118,11 @@ body{
     color: white;
     font-family: helvetica;
 }
-.text1 h6{
+.text1 h4{
     margin-top: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
         font-family: 'Optima';
         font-style: normal;
         font-weight: normal;
@@ -178,125 +187,33 @@ h4{
     font-size: 13px;
 }
 #skillssection{
+    display:flex;
     background-color: #333333;
 }
 #skills ul{
-    display: inline-block;
-}
-.branding{
-    display: inline-block;
-    font-size: 14px;
-    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
     list-style: none;
+}
+#skills li{ 
+   display: block;
     padding: 3px;
+    margin-left: 0px;
+    list-style: none;
+   font-size: 15px;
+   text-decoration: none;
     color: #D7D7D7;
      font-family: 'Optima';
      font-style: normal;
      font-weight: normal;
      src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
      }
-.editing{
-        font-size: 14px;
-        text-decoration: none;
-        list-style: none;
-        padding: 3px;
-        color: #D7D7D7;
-         font-family: 'Optima';
-         font-style: normal;
-         font-weight: normal;
-         src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-.ixd{
-    font-size: 14px;
-    text-decoration: none;
-    list-style: none;
-    padding: 3px;
-    color: #D7D7D7;
-     font-family: 'Optima';
-     font-style: normal;
-     font-weight: normal;
-     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-.iad{
-    font-size: 14px;
-    text-decoration: none;
-    list-style: none;
-    padding: 3px;
-    color: #D7D7D7;
-     font-family: 'Optima';
-     font-style: normal;
-     font-weight: normal;
-     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-.interview{
-    font-size: 14px;
-    text-decoration: none;
-    list-style: none;
-    padding: 3px;
-    color: #D7D7D7;
-     font-family: 'Optima';
-     font-style: normal;
-     font-weight: normal;
-     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-.research{
-    font-size: 14px;
-    text-decoration: none;
-    list-style: none;
-    padding: 3px;
-    color: #D7D7D7;
-     font-family: 'Optima';
-     font-style: normal;
-     font-weight: normal;
-     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-.test{
-    font-size: 14px;
-    text-decoration: none;
-    list-style: none;
-    padding: 3px;
-    color: #D7D7D7;
-     font-family: 'Optima';
-     font-style: normal;
-     font-weight: normal;
-     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-.visual{
-    font-size: 14px;
-    text-decoration: none;
-    list-style: none;
-    padding: 3px;
-    color: #D7D7D7;
-     font-family: 'Optima';
-     font-style: normal;
-     font-weight: normal;
-     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-#software{
-    background-color: #333333;
-}
-#software ul{
-    display: inline-block;
-}
-.software{
-    display: inline-block;
-    font-size: 14px;
-    text-decoration: none;
-    list-style: none;
-    padding: 3px;
-    color: #FD151B;
-     font-family: 'Optima';
-     font-style: normal;
-     font-weight: normal;
-     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-}
-#skills h5{
-    float: right;
-    color: #FD151B ;
-    font-family: 'optima';
-    font-size: 15px;
-    font-style: 'bold';
-
+#software h5{
+color: #fd151b;
+font-family: 'optima';
+font-style: bold;
+font-size: 14px;
 }
 #footer{
     display: flex;
@@ -310,12 +227,13 @@ h4{
     font-size: 13px;
 }
 #index ul{
-    display: inline-block;
+    display: flex;
     list-style: none;
     justify-items: left;
     align-content: center;
 }
 #index a{
+    display: inline-block;
     color:#333333;
     padding: 25px;
     font-size: 40px;
@@ -332,9 +250,9 @@ h4{
     list-style: none;
 }   
 #footer a{
-    grid-area: left;
     display: inline-block;
     justify-content: space-between;
+    align-content: center;
     width: 25%;
     list-style: none;
    color:#333333;
@@ -344,6 +262,9 @@ h4{
     font-family: 'Optima';
     font-style: normal;
     font-weight: bold;
-    src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+p{
+    display: inline-block;
+    justify-content: right;
 }
 
