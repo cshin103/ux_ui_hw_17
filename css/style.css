@@ -154,15 +154,6 @@ button{
     text-decoration: underline;
     border: none;
 }
-
-#background{
-    display: inline-block;
-}
-.background{  
-    display: inline-block;
-   color: white;
-   padding: 10px; 
-}
 h4{
     display: grid;
     grid-area: right;
@@ -186,81 +177,166 @@ h4{
     font-style: normal;
     font-size: 13px;
 }
-#render {
-
-}
-#contact{
-    display: inline-block;
+#skillssection{
     background-color: #333333;
-}    
-#contact h6{
-    display: grid;
-    grid-area: left;
-    color:white;
-    font-family:'optima';
-    font-style: normal;
-    font-size: 13px;
-    grid-area: 'bleft';
-    justify-content: space-between;
 }
-#xd img{
-    width: 300px;
-    height: 150px;
-    margin: 20px;
+#skills ul{
+    display: inline-block;
 }
-#axure img{
-    width: 350px;
-    height: 350px;
+.branding{
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #D7D7D7;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+     }
+.editing{
+        font-size: 14px;
+        text-decoration: none;
+        list-style: none;
+        padding: 3px;
+        color: #D7D7D7;
+         font-family: 'Optima';
+         font-style: normal;
+         font-weight: normal;
+         src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
 }
-p{
+.ixd{
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #D7D7D7;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+.iad{
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #D7D7D7;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+.interview{
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #D7D7D7;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+.research{
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #D7D7D7;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+.test{
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #D7D7D7;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+.visual{
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #D7D7D7;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+#software{
+    background-color: #333333;
+}
+#software ul{
+    display: inline-block;
+}
+.software{
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    color: #FD151B;
+     font-family: 'Optima';
+     font-style: normal;
+     font-weight: normal;
+     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
+}
+#skills h5{
     float: right;
-    margin: auto;
-    padding: 20px;
+    color: #FD151B ;
+    font-family: 'optima';
+    font-size: 15px;
+    font-style: 'bold';
+
 }
 #footer{
     display: flex;
     background-color: white;
 }
-.left h6{
+.index h6{
     color: #333333;
     font-family: 'optima';
     font-style: 'normal';
     font-weight: bold;
     font-size: 13px;
 }
-.left ul{
-    background-color: white;
-    display: flex;
-    height: 50px;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;   
-}
-.left a{
-    grid-area: left;
+#index ul{
     display: inline-block;
-    justify-content: left;
-    width: 25%;
-   color:#333333;
-   padding: 25px;
-   font-size: 40px;
-   text-decoration: none;
-    font-family: 'Helvetica';
-    font-style: bold;
-    font-weight: normal;
+    list-style: none;
+    justify-items: left;
+    align-content: center;
 }
-.left2{
+#index a{
+    color:#333333;
+    padding: 25px;
+    font-size: 40px;
+    text-decoration: none;
+     font-family: 'Helvetica';
+     font-style: bold;
+     font-weight: normal;
+ }
+#footer{
     display: flex;
     height: 50px;
     justify-content: flex-start;
     align-items: center;
     list-style: none;
 }   
-.left2 a{
+#footer a{
     grid-area: left;
     display: inline-block;
     justify-content: space-between;
     width: 25%;
+    list-style: none;
    color:#333333;
    padding: 25px;
    font-size: 15px;
