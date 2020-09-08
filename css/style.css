@@ -1,8 +1,7 @@
 body{
-    background-color:white;
+    background-color:#333333;
 }
 #header{
-    background-color:#333333;
     display: flex;
     justify-content: space-between;
 }
@@ -12,11 +11,9 @@ body{
 }
 .nav{
     display: inline-block;
-    background-color: #333333;
     padding: 20px;
 }
 #column{
-    background-color:#333333;
     display: inline-block;
     padding: 30px;
     background-size: 600px;
@@ -32,7 +29,7 @@ body{
     display: inline-block;
     justify-content: flex-end;
     width: 25%;
-   color: white;
+   color:#D7D7D7;
    padding: 20px;
    font-size: 14px;
    text-decoration: none;
@@ -84,27 +81,27 @@ body{
     padding: 30px;
 }
 .text h1{
-    color: white;
+    color: #D7D7D7;
     font-family: Helvetica;
     font-size: x-large;
     margin-top: 10px;
 }
 .text p{
-    color: white;
+    color: #D7D7D7;
     font-family: 'optima';
     font-style: normal;
     font-weight: normal;
     font-size:20px
 }
 .text1 p{
-    color: white;
+    color: #D7D7D7;
     font-family: 'Optima';
     font-style: normal;
     font-weight: normal;
     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
 }
 .text1 h3{
-    color:white;
+    columns: #D7D7D7;
     font-family: Helvetica;
     margin-top: 10px;
 }
@@ -115,12 +112,12 @@ body{
     src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
 }
 .text1 h1{
-    color: white;
+    color:#D7D7D7;
     font-family: helvetica;
 }
 .text1 h4{
     margin-top: 10px;
-    color: white;
+    color:#D7D7D7;
     display: flex;
     justify-content: center;
         font-family: 'Optima';
@@ -141,7 +138,7 @@ body{
     font-family: Helvetica;
     font-size: 84px;
     color:#D7D7D7;
-    padding: 1.35em 2.5em;
+    padding: 1em 2.5em;
     transform: rotate(270deg);
 }
 .caption2{
@@ -152,12 +149,12 @@ body{
     font-family: Helvetica;
     font-size: 84px;
     color:#D7D7D7;
-    padding: 4em 2em;
+    padding: 5em 3em;
     transform: rotate(270deg);
 }
 button{
+    color:#D7D7D7;
     background-color: #333333;
-    color: white;
     font-family: 'optima';
     font-style: normal;
     font-size: 12px;
@@ -167,7 +164,7 @@ button{
 h4{
     display: flex;
     flex-direction: row;
-    color:#333333;
+    color: #D7D7D7;
     font-family:'optima';
     font-style: normal;
     font-size: 13px;
@@ -201,22 +198,22 @@ h4{
     grid-row: 3;
     text-decoration-line: underline;
     font-family: 'optima';
-    color: #333333;
+    color: #D7D7D7;
     justify-content: end;
     padding: 5px;
 
 }
 #skillssection{
     display:flex;
-    background-color: #333333;
     justify-content: space-around;
+    flex-direction: row;
+    padding-right: 5px;
     
 }
 .skills{
     display: flex;
     flex-direction: column;
     list-style: none;
-    background-color: #333333;
 }
 .skills dl{
     display: flex;
@@ -249,7 +246,7 @@ h4{
     background-color: white;
 }
 .index h6{
-    color: #333333;
+    color: #D7D7D7;
     font-family: 'optima';
     font-style: 'normal';
     font-weight: bold;
@@ -263,7 +260,7 @@ h4{
 }
 .index a{
     display:flex;
-    color:#333333;
+    color:#D7D7D7;
     padding: 25px;
     font-size: 40px;
     text-decoration: none;
@@ -286,7 +283,7 @@ h4{
 }
 #footer a{
     display: inline-block;
-    color:#333333;
+    color:#D7D7D7;
     padding: 25px;
     font-size: 14px;
     text-decoration: none;
